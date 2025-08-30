@@ -2,7 +2,7 @@
 export default function Loading() {
   return (
     <div className='preloader'>
-      <i className='icon-donation' />
+     
       <p>NAVGOONJ</p>
     </div>
   );

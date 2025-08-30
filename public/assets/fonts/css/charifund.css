@@ -75,7 +75,9 @@
 .icon-user:before { content: '\e81e'; } /* '' */
 .icon-fund:before { content: '\e81f'; } /* '' */
 .icon-donation-card:before { content: '\e820'; } /* '' */
-.icon-donation:before { content: '\e821'; } /* '' */
+.icon-donation:before {
+  content: none !important;
+}
 .icon-spread-love:before { content: '\e822'; } /* '' */
 .icon-support-heart:before { content: '\e824'; } /* '' */
 .icon-education:before { content: '\e829'; } /* '' */

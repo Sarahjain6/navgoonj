@@ -110,9 +110,7 @@ const HelpOne = () => {
                       gift of a education
                     </li>
                     <li>
-                      <i className='fa-solid fa-circle-check' /> We help
-                      companies develop powerful corporate social
-                      Responsibility,
+                      <i className='fa-solid fa-circle-check' /> Building stronger, self-reliant communities through collective efforts.
                     </li>
                   </ul>
                 </div>
