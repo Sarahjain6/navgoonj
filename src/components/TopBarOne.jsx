@@ -26,9 +26,9 @@ const TopBarOne = () => {
                   <div className="topbar__list-wrapper">
                     <ul className="topbar__list">
                       <li>
-                        <a href="mailto:support@example.com">
+                        <a href="mailto:info@navgoonj.in">
                           <i className="fa-regular fa-envelope"></i>
-                          support@example.com
+                          info@navgoonj.in
                         </a>
                       </li>
                       <li>

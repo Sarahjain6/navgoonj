@@ -120,9 +120,9 @@ const FooterOne = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href='/blog-list'>
+                      <Link href='/faq'>
                         <i className='fa-solid fa-arrow-right' />
-                        Our News
+                        Faq
                       </Link>
                     </li>
                     <li>
@@ -233,7 +233,7 @@ const FooterOne = () => {
                     <li>
                       <Link href='/mailto:support@example.com'>
                         <i className='fa-regular fa-envelope' />
-                        example@email.com
+                        info@navgoonj.com
                       </Link>
                     </li>
                   </ul>

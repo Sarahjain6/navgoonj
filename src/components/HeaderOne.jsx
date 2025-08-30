@@ -64,11 +64,12 @@ const HeaderOne = () => {
                         <li className={`navbar__item nav-fade ${["/blog-list", "/blog-grid", "/blog-details"].includes(pathname) ? "active" : ""}`}>
                           <Link href="/blog-list">News</Link>
                         </li>
-                        <li className={`navbar__item nav-fade ${pathname === "/contact-us" ? "active" : ""}`}>
-                          <Link href="/contact-us">Contact</Link>
-                        </li>
+                        
                         <li className={`navbar__item nav-fade ${pathname === "/faq" ? "active" : ""}`}>
                           <Link href="/faq">FAQ</Link>
+                        </li>
+                        <li className={`navbar__item nav-fade ${pathname === "/contact-us" ? "active" : ""}`}>
+                          <Link href="/contact-us">Contact</Link>
                         </li>
                       </ul>
                     </div>
