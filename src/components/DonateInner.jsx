@@ -32,16 +32,15 @@ const DonateInner = () => {
                     Help Children Rise out of Poverty
                   </h3>
                   <p>
-                    Lorem Ipsum is simply dummy a of the printing and type
-                    setting industry Loreaim Ipsum has been the industry's
-                    standard dummy
+                   Every small step can lead to a big change. At Navgoonj, we believe that together, 
+                   we can build a world where every child learns, every family thrives, and every community grows stronger.
                   </p>
                 </div>
                 <div className='cta'>
                   <div className='community-donation'>
                     <div className='community-donation__inner'>
                       <h5>Support Where It Counts.</h5>
-                      <div className='warning'>
+                      {/*<div className='warning'>
                         <div className='line'>
                           <i className='fa-solid fa-triangle-exclamation' />
                         </div>
@@ -49,7 +48,7 @@ const DonateInner = () => {
                           <strong>Notice:</strong> Test mode is enabled. While
                           in test mode no live donations are processed.
                         </p>
-                      </div>
+                      </div>*/}
                       <div className='donation-form' data-aos-delay={300}>
                         <div className='donation-form__single'>
                           <h5>Your Donation:</h5>
@@ -242,203 +241,14 @@ const DonateInner = () => {
                 </div>
               </div>
             </div>
-            <div className='award'>
-              <div className='container'>
-                <div className='row gutter-24'>
-                  <div className='col-12 col-lg-8'>
-                    <div
-                      className='award__single'
-                      data-aos='fade-up'
-                      data-aos-duration={1000}
-                    >
-                      <div className='thumb'>
-                        <Link href='/event-details'>
-                          <img
-                            src='assets/images/award/one.png'
-                            alt='Image_inner'
-                          />
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className='col-12 col-lg-4'>
-                    <div
-                      className='award__single'
-                      data-aos='fade-up'
-                      data-aos-duration={1000}
-                      data-aos-delay={200}
-                    >
-                      <div className='thumb'>
-                        <Link href='/event-details'>
-                          <img
-                            src='assets/images/award/four.png'
-                            alt='Image_inner'
-                          />
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className='col-12 col-lg-5'>
-                    <div
-                      className='award__single'
-                      data-aos='fade-up'
-                      data-aos-duration={1000}
-                      data-aos-delay={100}
-                    >
-                      <div className='thumb'>
-                        <Link href='/event-details'>
-                          <img
-                            src='assets/images/award/two.png'
-                            alt='Image_inner'
-                          />
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className='col-12 col-lg-7'>
-                    <div
-                      className='award__single'
-                      data-aos='fade-up'
-                      data-aos-duration={1000}
-                      data-aos-delay={300}
-                    >
-                      <div className='thumb'>
-                        <Link href='/event-details'>
-                          <img
-                            src='assets/images/award/three.png'
-                            alt='Image_inner'
-                          />
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
             <div
               className='faq__content-inner'
               data-aos='fade-up'
               data-aos-duration={1000}
               data-aos-delay={100}
             >
-              <div className='accordion' id='accordion'>
-                <div className='accordion-item'>
-                  <h6 className='accordion-header' id='headingOne'>
-                    <button
-                      className='accordion-button'
-                      type='button'
-                      data-bs-toggle='collapse'
-                      data-bs-target='#collapseOne'
-                      aria-expanded='true'
-                      aria-controls='collapseOne'
-                    >
-                      What kind of recipes can I find on your website?
-                    </button>
-                  </h6>
-                  <div
-                    id='collapseOne'
-                    className='accordion-collapse collapse show'
-                    aria-labelledby='headingOne'
-                    data-bs-parent='#accordion'
-                  >
-                    <div className='accordion-body'>
-                      <p>
-                        It is a long established fact that a reader will be
-                        distracted by the readable the a content of a page when
-                        looking at its layout. Many desktop publishing packages
-                        and web page editors.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='accordion-item'>
-                  <h6 className='accordion-header' id='headingTwo'>
-                    <button
-                      className='accordion-button collapsed'
-                      type='button'
-                      data-bs-toggle='collapse'
-                      data-bs-target='#collapseTwo'
-                      aria-expanded='false'
-                      aria-controls='collapseTwo'
-                    >
-                      Are the recipes suitable for beginners?
-                    </button>
-                  </h6>
-                  <div
-                    id='collapseTwo'
-                    className='accordion-collapse collapse'
-                    aria-labelledby='headingTwo'
-                    data-bs-parent='#accordion'
-                  >
-                    <div className='accordion-body'>
-                      <p>
-                        It is a long established fact that a reader will be
-                        distracted by the readable the a content of a page when
-                        looking at its layout. Many desktop publishing packages
-                        and web page editors.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='accordion-item'>
-                  <h6 className='accordion-header' id='headingThree'>
-                    <button
-                      className='accordion-button collapsed'
-                      type='button'
-                      data-bs-toggle='collapse'
-                      data-bs-target='#collapseThree'
-                      aria-expanded='false'
-                      aria-controls='collapseThree'
-                    >
-                      Do you offer cooking tips and techniques?
-                    </button>
-                  </h6>
-                  <div
-                    id='collapseThree'
-                    className='accordion-collapse collapse'
-                    aria-labelledby='headingThree'
-                    data-bs-parent='#accordion'
-                  >
-                    <div className='accordion-body'>
-                      <p>
-                        It is a long established fact that a reader will be
-                        distracted by the readable the a content of a page when
-                        looking at its layout. Many desktop publishing packages
-                        and web page editors.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className='accordion-item'>
-                  <h6 className='accordion-header' id='headingFour'>
-                    <button
-                      className='accordion-button collapsed'
-                      type='button'
-                      data-bs-toggle='collapse'
-                      data-bs-target='#collapseFour'
-                      aria-expanded='false'
-                      aria-controls='collapseFour'
-                    >
-                      How frequently do you update your recipe collection?
-                    </button>
-                  </h6>
-                  <div
-                    id='collapseFour'
-                    className='accordion-collapse collapse'
-                    aria-labelledby='headingFour'
-                    data-bs-parent='#accordion'
-                  >
-                    <div className='accordion-body'>
-                      <p>
-                        It is a long established fact that a reader will be
-                        distracted by the readable the a content of a page when
-                        looking at its layout. Many desktop publishing packages
-                        and web page editors.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
           <div className='col-12 col-xl-4'>

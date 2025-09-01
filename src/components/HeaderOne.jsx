@@ -62,7 +62,7 @@ const HeaderOne = () => {
                           <Link href="/our-causes">Causes</Link>
                         </li>
                         <li className={`navbar__item nav-fade ${["/blog-list", "/blog-grid", "/blog-details"].includes(pathname) ? "active" : ""}`}>
-                          <Link href="/blog-list">News</Link>
+                          <Link href="/">News</Link>
                         </li>
                         
                         <li className={`navbar__item nav-fade ${pathname === "/faq" ? "active" : ""}`}>
@@ -176,7 +176,7 @@ const HeaderOne = () => {
 
           {/* Mobile CTA Button */}
           <div className="mobile-menu__cta nav-fade d-block d-md-none">
-            <Link href="/donate-us" className="btn--primary">
+            <Link href="/donate-u" className="btn--primary">
               Donate Now <i className="fa-solid fa-arrow-right" />
             </Link>
           </div>

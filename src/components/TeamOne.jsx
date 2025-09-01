@@ -234,21 +234,7 @@ const TeamOne = () => {
               </div>
             </div>
           </div>
-          <div className='row'>
-            <div className='col-12'>
-              <div className='section__cta cta text-center'>
-                <Link
-                  href='/our-team'
-                  aria-label='our team'
-                  title='our team'
-                  className='btn--primary'
-                >
-                  View All
-                  <i className='fa-solid fa-arrow-right' />
-                </Link>
-              </div>
-            </div>
-          </div>
+          
         </div>
         <div className='spade'>
           <img src='assets/images/sprade-green.png' alt='Image_inner' />

@@ -55,8 +55,7 @@ const BlogOne = () => {
                     <div className='blog__single-content'>
                       <h5>
                         <Link href='/blog-details'>
-                          IT Service Case Studies Accelerate Business Fly
-                          Success Tech
+                          Join us in organizing events, teaching skills, or simply spreading awareness. Volunteering with Navgoonj not only transforms lives but also helps you grow personally and professionally.
                         </Link>
                       </h5>
                     </div>
@@ -111,15 +110,15 @@ const BlogOne = () => {
                     </div>
                     <div className='blog__single-content'>
                       <h5>
-                        <Link href='/blog-details'>
-                          IT Service Case Studies Accelerate Business Fly
-                          Success Tech
+                        <Link href='/'>
+                          Help us amplify our mission by sharing our stories and raising awareness within your network.
+                           Sometimes, a voice can make a bigger impact than money.
                         </Link>
                       </h5>
                     </div>
                     <div className='blog__single-cta'>
                       <Link
-                        href='/blog-details'
+                        href='/'
                         aria-label='blog details'
                         title='blog details'
                       >
@@ -145,7 +144,7 @@ const BlogOne = () => {
               >
                 <div className='blog__single van-tilt'>
                   <div className='blog__single-thumb'>
-                    <Link href='/blog-details'>
+                    <Link href='/'>
                       <img
                         src='assets/images/blog/three.png'
                         alt='Image_inner'
@@ -171,15 +170,14 @@ const BlogOne = () => {
                     </div>
                     <div className='blog__single-content'>
                       <h5>
-                        <Link href='/blog-details'>
-                          IT Service Case Studies Accelerate Business Fly
-                          Success Tech
+                        <Link href='/'>
+                          Thousands of children given access to schools and learning resources
                         </Link>
                       </h5>
                     </div>
                     <div className='blog__single-cta'>
                       <Link
-                        href='/blog-details'
+                        href='/'
                         aria-label='blog details'
                         title='blog details'
                       >
@@ -197,20 +195,7 @@ const BlogOne = () => {
               </div>
             </div>
           </div>
-          <div className='row'>
-            <div className='col-12'>
-              <div className='section__cta cta text-center'>
-                <Link
-                  href='/blog-list'
-                  aria-label='our blog'
-                  title='our blog'
-                  className='btn--primary'
-                >
-                  View All <i className='fa-solid fa-arrow-right' />
-                </Link>
-              </div>
-            </div>
-          </div>
+         
         </div>
         <div className='blog-bg'>
           <img src='assets/images/blog/blog-bg.png' alt='Image_inner' />

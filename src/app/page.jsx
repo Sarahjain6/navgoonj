@@ -60,7 +60,7 @@ const page = () => {
         <TeamOne />
 
         {/* CommunityOne */}
-        <CommunityOne />
+      
 
         {/* TestimonialOne */}
         <TestimonialOne />
@@ -69,7 +69,7 @@ const page = () => {
         <CauseSliderTwo />
 
         {/* DifferenceTwo */}
-        <DifferenceTwo />
+       
 
         {/* BlogOne */}
         <BlogOne />

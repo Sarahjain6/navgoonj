@@ -40,27 +40,26 @@ const page = () => {
 
         {/* HelpOne */}
         <HelpOne />
-
+        
         {/* CtaSectionTwo */}
         <CtaSectionTwo />
-
+{/* DifferenceTwo */}
+        <DifferenceTwo />
         {/* TeamTwo */}
         <TeamTwo />
 
         {/* FaqOne */}
-        <FaqOne />
+       
 
-        {/* TestimonialOne */}
-        <TestimonialOne />
+        
 
         {/* ContactOne */}
         <ContactOne />
 
-        {/* DifferenceTwo */}
-        <DifferenceTwo />
+        
 
         {/* GalleryOne */}
-        <GalleryOne />
+        
 
         {/* FooterOne */}
         <FooterOne />

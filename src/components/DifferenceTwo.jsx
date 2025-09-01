@@ -101,7 +101,7 @@ const DifferenceTwo = () => {
                             aria-label='excellence'
                             title='excellence'
                           >
-                            Excellence
+                            Our Values
                           </button>
                         </div>
 
@@ -112,6 +112,14 @@ const DifferenceTwo = () => {
                               id='mission'
                             >
                               <ul>
+                                <li>
+                                  <i className='fa-solid fa-check' /> We help
+                                  companies develop powerful corporate social
+                                </li>
+                                <li>
+                                  <i className='fa-solid fa-check' /> We help
+                                  companies develop powerful corporate social
+                                </li>
                                 <li>
                                   <i className='fa-solid fa-check' /> We help
                                   companies develop powerful corporate social
@@ -134,16 +142,13 @@ const DifferenceTwo = () => {
                             >
                               <ul>
                                 <li>
-                                  <i className='fa-solid fa-check' /> We help
-                                  companies develop powerful corporate social
+                                  <i className='fa-solid fa-check' /> To create a harmonious society based on brotherhood, mutual cooperation, and trust.
                                 </li>
                                 <li>
-                                  <i className='fa-solid fa-check' /> Helped
-                                  fund 3,265 Project powerful corporate poor
+                                  <i className='fa-solid fa-check' /> To build a future where every child has access to quality education and opportunities for growth.
                                 </li>
                                 <li>
-                                  <i className='fa-solid fa-check' /> Dedicated
-                                  Tech Services
+                                  <i className='fa-solid fa-check' /> To work towards a nation where every individual lives with dignity, irrespective of caste, creed, religion, or social status.
                                 </li>
                               </ul>
                             </div>
@@ -155,16 +160,12 @@ const DifferenceTwo = () => {
                             >
                               <ul>
                                 <li>
-                                  <i className='fa-solid fa-check' /> We help
-                                  companies develop powerful corporate social
+                                  <i className='fa-solid fa-check' /> Treating everyone with respect and dignity, regardless of caste, religion, or background.
                                 </li>
                                 <li>
-                                  <i className='fa-solid fa-check' /> Helped
-                                  fund 3,265 Project powerful corporate poor
-                                </li>
+                                  <i className='fa-solid fa-check' /> Cooperating with government bodies, other NGOs, and organizations to achieve shared goals effectively.                                </li>
                                 <li>
-                                  <i className='fa-solid fa-check' /> Dedicated
-                                  Tech Services
+                                  <i className='fa-solid fa-check' /> Ensuring donations, grants, and resources are used solely for the NGO’s aims and objectives.
                                 </li>
                               </ul>
                             </div>
