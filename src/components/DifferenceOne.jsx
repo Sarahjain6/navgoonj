@@ -85,11 +85,12 @@ const DifferenceOne = () => {
                           </div>
                           <div className='difference__single-content'>
                             <h5>
-                              <Link href='/cause-details'>Child Education</Link>
+                              <Link href='/cause-details'>Children's Programs</Link>
                             </h5>
                             <p>
-                              Set up a secure and user-friendly online donation
-                              platform that accepts multiple
+                              We support poor children by providing access to education, promoting their health, 
+                              and ensuring their overall well-being.
+
                             </p>
                           </div>
                         </div>
@@ -109,11 +110,10 @@ const DifferenceOne = () => {
                           </div>
                           <div className='difference__single-content'>
                             <h5>
-                              <Link href='/cause-details'>Healthy Food</Link>
+                              <Link href='/cause-details'>Protecting Our Planet</Link>
                             </h5>
                             <p>
-                              Set up a secure and user-friendly online donation
-                              platform that accepts multiple
+                              We work to create a sustainable future for everyone through dedicated tree-planting efforts.
                             </p>
                           </div>
                         </div>
@@ -133,11 +133,11 @@ const DifferenceOne = () => {
                           </div>
                           <div className='difference__single-content'>
                             <h5>
-                              <Link href='/cause-details'>Medical Care</Link>
+                              <Link href='/cause-details'>Aged Care</Link>
                             </h5>
                             <p>
-                              Set up a secure and user-friendly online donation
-                              platform that accepts multiple
+                              We provide essential health services and compassionate support to old age people in aged care.
+
                             </p>
                           </div>
                         </div>
@@ -157,11 +157,11 @@ const DifferenceOne = () => {
                           </div>
                           <div className='difference__single-content'>
                             <h5>
-                              <Link href='/cause-details'>Child Education</Link>
+                              <Link href='/cause-details'>Children's Programs</Link>
                             </h5>
                             <p>
-                              Set up a secure and user-friendly online donation
-                              platform that accepts multiple
+                              We support poor children by providing access to education, promoting their health, 
+                              and ensuring their overall well-being.
                             </p>
                           </div>
                         </div>
@@ -181,11 +181,10 @@ const DifferenceOne = () => {
                           </div>
                           <div className='difference__single-content'>
                             <h5>
-                              <Link href='/cause-details'>Healthy Food</Link>
+                              <Link href='/cause-details'>Protecting Our Planet</Link>
                             </h5>
                             <p>
-                              Set up a secure and user-friendly online donation
-                              platform that accepts multiple
+                             We work to create a sustainable future for everyone through dedicated tree-planting efforts.
                             </p>
                           </div>
                         </div>
@@ -205,11 +204,11 @@ const DifferenceOne = () => {
                           </div>
                           <div className='difference__single-content'>
                             <h5>
-                              <Link href='/cause-details'>Medical Care</Link>
+                              <Link href='/cause-details'>Aged Care</Link>
                             </h5>
                             <p>
-                              Set up a secure and user-friendly online donation
-                              platform that accepts multiple
+                              We provide essential health services and compassionate support to old age people in aged care.
+
                             </p>
                           </div>
                         </div>

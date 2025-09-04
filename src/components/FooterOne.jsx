@@ -221,7 +221,8 @@ const FooterOne = () => {
                         target='_blank'
                       >
                         <i className='fa-solid fa-location-dot' />
-                        455 West Orchard Street Kings Mountain, NC 280867
+                        H.NO-882, WARD NO-6, FLAT NO.C-4
+MEHRAULI NEW DELHI 110030
                       </Link>
                     </li>
                     <li>
