@@ -51,19 +51,8 @@ const DonateInner = () => {
                       </div>*/}
                       <div className='donation-form' data-aos-delay={300}>
                         <div className='donation-form__single'>
-                          <h5>Your Donation:</h5>
-                          <div className='input-group-icon'>
-                            <div className='thumb'>
-                              <i className='fa-solid fa-dollar-sign' />
-                            </div>
-                            <input
-                              type='text'
-                              name='donation-amount'
-                              id='donationAmount'
-                              value={amount}
-                              onChange={(e) => setAmount(e.target.value)}
-                            />
-                          </div>
+                          <h5>Account Number:</h5>
+                         
                           <div className='made-amount'>
                             <span
                               className={`donation-amount ${
@@ -71,87 +60,18 @@ const DonateInner = () => {
                               }`}
                               onClick={() => setAmount(20)}
                             >
-                              20
+                              769502010004223
                             </span>
-                            <span
-                              className={`donation-amount ${
-                                amount === 50 && "active"
-                              }`}
-                              onClick={() => setAmount(50)}
-                            >
-                              50
-                            </span>
-                            <span
-                              className={`donation-amount ${
-                                amount === 100 && "active"
-                              }`}
-                              onClick={() => setAmount(100)}
-                            >
-                              100
-                            </span>
-                            <span
-                              className={`donation-amount ${
-                                amount === 200 && "active"
-                              }`}
-                              onClick={() => setAmount(200)}
-                            >
-                              200
-                            </span>
-                            <span
-                              className={`donation-amount custom-amount ${
-                                amount === 0 && "active"
-                              }`}
-                              onClick={() => setAmount(0)}
-                            >
-                              Custom
-                            </span>
+                            
+                           
+                              
+                            
+                            
                           </div>
                         </div>
-                        <div className='donation-form__single'>
-                          <h5>Select Payment Method</h5>
-                          <div className='radio-wrapper'>
-                            <div className='radio-single'>
-                              <input
-                                type='radio'
-                                id='testDonation'
-                                name='donation-payment'
-                                defaultChecked=''
-                              />
-                              <label htmlFor='testDonation'>
-                                Test Donation
-                              </label>
-                            </div>
-                            <div className='radio-single'>
-                              <input
-                                type='radio'
-                                id='offlineDonation'
-                                name='donation-payment'
-                                defaultChecked=''
-                              />
-                              <label htmlFor='offlineDonation'>
-                                Offline Donation
-                              </label>
-                            </div>
-                            <div className='radio-single'>
-                              <input
-                                type='radio'
-                                id='cardDonation'
-                                name='donation-payment'
-                                defaultChecked=''
-                              />
-                              <label htmlFor='cardDonation'>Credit Card</label>
-                            </div>
-                          </div>
-                        </div>
+                        
                         <div className='cta'>
-                          <Link
-                            href='/donate-us'
-                            aria-label='donate us'
-                            title='donate us'
-                            className='btn--primary'
-                          >
-                            Donate Now <i className='fa-solid fa-arrow-right' />
-                          </Link>
+                         
                         </div>
                       </div>
                     </div>
@@ -275,81 +195,7 @@ const DonateInner = () => {
                   </button>
                 </form>
               </div>
-              <div
-                className='cm-sidebar-widget'
-                data-aos='fade-up'
-                data-aos-duration={1000}
-                data-aos-delay={100}
-              >
-                <div className='intro'>
-                  <h5>Recent Causes</h5>
-                </div>
-                <div className='cm-sidebar-post'>
-                  <div className='single-item'>
-                    <div className='thumb'>
-                      <Link href='/blog-details'>
-                        <img
-                          src='assets/images/blog/ph-one.png'
-                          alt='Image_inner'
-                        />
-                      </Link>
-                    </div>
-                    <div className='content'>
-                      <p>
-                        <i className='fa-solid fa-calendar-days' />{" "}
-                        <span>November 19, 2024</span>
-                      </p>
-                      <p>
-                        <Link href='/blog-details'>
-                          Where Innovation Meets Foundation
-                        </Link>
-                      </p>
-                    </div>
-                  </div>
-                  <div className='single-item'>
-                    <div className='thumb'>
-                      <Link href='/blog-details'>
-                        <img
-                          src='assets/images/blog/ph-two.png'
-                          alt='Image_inner'
-                        />
-                      </Link>
-                    </div>
-                    <div className='content'>
-                      <p>
-                        <i className='fa-solid fa-calendar-days' />{" "}
-                        <span>November 19, 2024</span>
-                      </p>
-                      <p>
-                        <Link href='/blog-details'>
-                          Where Innovation Meets Foundation
-                        </Link>
-                      </p>
-                    </div>
-                  </div>
-                  <div className='single-item'>
-                    <div className='thumb'>
-                      <Link href='/blog-details'>
-                        <img
-                          src='assets/images/blog/three.png'
-                          alt='Image_inner'
-                        />
-                      </Link>
-                    </div>
-                    <div className='content'>
-                      <p>
-                        <i className='fa-solid fa-calendar-days' />{" "}
-                        <span>November 22, 2024</span>
-                      </p>
-                      <p>
-                        <Link href='/blog-details'>
-                          Structures That Stand, Dreams That Soar
-                        </Link>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
               <div
                 className='cm-sidebar-widget'
                 data-aos='fade-up'
@@ -360,12 +206,12 @@ const DonateInner = () => {
                   <h5>Tags</h5>
                 </div>
                 <div className='tag-wrapper'>
-                  <Link href='/shop'>t-shirt</Link>
-                  <Link href='/shop'>Banner Design</Link>
-                  <Link href='/shop'>Brochures</Link>
-                  <Link href='/shop'>Landing</Link>
-                  <Link href='/shop'>Print</Link>
-                  <Link href='/shop'>Business Card</Link>
+                  <Link href='/shop'>Help</Link>
+                  <Link href='/shop'>Support </Link>
+                  <Link href='/shop'>Education</Link>
+                  <Link href='/shop'>Environment</Link>
+                  <Link href='/shop'>Health</Link>
+                  <Link href='/shop'> Care</Link>
                 </div>
               </div>
               <div
