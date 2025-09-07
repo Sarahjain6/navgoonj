@@ -51,6 +51,26 @@ const DonateInner = () => {
                       </div>*/}
                       <div className='donation-form' data-aos-delay={300}>
                         <div className='donation-form__single'>
+                          <h5>Account Name:</h5>
+                         
+                          <div className='made-amount'>
+                            <span
+                              className={`donation-amount ${
+                                amount === 20 && "active"
+                              }`}
+                              onClick={() => setAmount(20)}
+                            >
+                              NAV GOONJ
+                            </span>
+                            
+                            
+                           
+                              
+                            
+                            
+                          </div>
+                        </div>
+                        <div className='donation-form__single'>
                           <h5>Account Number:</h5>
                          
                           <div className='made-amount'>
@@ -62,6 +82,27 @@ const DonateInner = () => {
                             >
                               769502010004223
                             </span>
+                            
+                            
+                           
+                              
+                            
+                            
+                          </div>
+                        </div>
+                        <div className='donation-form__single'>
+                          <h5>IFS Code:</h5>
+                         
+                          <div className='made-amount'>
+                            <span
+                              className={`donation-amount ${
+                                amount === 20 && "active"
+                              }`}
+                              onClick={() => setAmount(20)}
+                            >
+                              UBIN0576956
+                            </span>
+                            
                             
                            
                               
