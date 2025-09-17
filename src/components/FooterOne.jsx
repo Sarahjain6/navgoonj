@@ -68,22 +68,16 @@ const FooterOne = () => {
                     >
                       <i className='fa-brands fa-facebook-f' />
                     </Link>
+                    
                     <Link
-                      href='https://vimeo.com'
-                      target='_blank'
-                      aria-label='share us on vimeo'
-                      title='vimeo'
-                    >
-                      <i className='fa-brands fa-vimeo-v' />
-                    </Link>
-                    <Link
-                      href='https://x.com'
-                      target='_blank'
-                      aria-label='share us on twitter'
-                      title='twitter'
-                    >
-                      <i className='fa-brands fa-twitter' />
-                    </Link>
+  href="https://www.instagram.com"
+  target="_blank"
+  aria-label="share us on instagram"
+  title="instagram"
+>
+  <i className="fa-brands fa-instagram" />
+</Link>
+
                     <Link
                       href='https://www.linkedin.com'
                       target='_blank'
@@ -92,6 +86,7 @@ const FooterOne = () => {
                     >
                       <i className='fa-brands fa-linkedin-in' />
                     </Link>
+
                   </div>
                 </div>
               </div>
@@ -225,12 +220,7 @@ const FooterOne = () => {
 MEHRAULI NEW DELHI 110030
                       </Link>
                     </li>
-                    <li>
-                      <Link href='/tel:2305-587-3407'>
-                        <i className='fa-solid fa-phone' />
-                        +088 (246) 642-27-10
-                      </Link>
-                    </li>
+                    
                     <li>
                       <Link href='/mailto:support@example.com'>
                         <i className='fa-regular fa-envelope' />

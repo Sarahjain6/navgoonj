@@ -61,12 +61,10 @@ const HeaderOne = () => {
                         <li className={`navbar__item nav-fade ${["/our-causes", "/cause-details"].includes(pathname) ? "active" : ""}`}>
                           <Link href="/our-causes">Causes</Link>
                         </li>
-                        <li className={`navbar__item nav-fade ${["/blog-list", "/blog-grid", "/blog-details"].includes(pathname) ? "active" : ""}`}>
-                          <Link href="/">News</Link>
-                        </li>
+                       
                         
                         <li className={`navbar__item nav-fade ${pathname === "/faq" ? "active" : ""}`}>
-                          <Link href="/faq">FAQ</Link>
+                          <Link href="">FAQ</Link>
                         </li>
                         <li className={`navbar__item nav-fade ${pathname === "/contact-us" ? "active" : ""}`}>
                           <Link href="/contact-us">Contact</Link>
@@ -75,15 +73,7 @@ const HeaderOne = () => {
                     </div>
 
                     {/* Contact Button */}
-                    <div className="contact-btn">
-                      <div className="contact-icon">
-                        <i className="icon-support" />
-                      </div>
-                      <div className="contact-content">
-                        <p>Call Us Now</p>
-                        <a href="tel:01-793-7938">(+01)-793-7938</a>
-                      </div>
-                    </div>
+                   
                   </div>
 
                   {/* Navbar Options */}
