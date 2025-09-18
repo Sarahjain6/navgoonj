@@ -31,12 +31,12 @@ const TopBarOne = () => {
                           info@navgoonj.in
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="tel:2305-587-3407">
                           <i className="fa-solid fa-phone"></i>
                           +2(305) 587-3407
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -63,21 +63,14 @@ const TopBarOne = () => {
                       >
                         <i className="fa-brands fa-facebook-f"></i>
                       </a>
-                      <a
-                        href="https://vimeo.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                        title="vimeo"
-                      >
-                        <i className="fa-brands fa-vimeo-v"></i>
-                      </a>
+                    
                       <a
                         href="https://x.com/"
                         target="_blank"
                         rel="noreferrer"
                         title="twitter"
                       >
-                        <i className="fa-brands fa-twitter"></i>
+                        <i className="fa-brands fa-instagram"></i>
                       </a>
                       <a
                         href="https://www.linkedin.com/"

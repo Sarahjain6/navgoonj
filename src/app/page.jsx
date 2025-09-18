@@ -47,7 +47,7 @@ const page = () => {
         {/* DifferenceOne */}
         <DifferenceOne />
 
-        {/* HelpOne */}
+        {/* HelpOne 
         <HelpOne />
 
         {/* CauseOne */}
@@ -56,13 +56,13 @@ const page = () => {
         {/* CtaSectionOne */}
         <CtaSectionOne />
 
-        {/* TeamOne */}
+        {/* TeamOne 
         <TeamOne />
 
         {/* CommunityOne */}
       
 
-        {/* TestimonialOne */}
+        {/* TestimonialOne 
         <TestimonialOne />
 
         {/* CauseSliderTwo */}
@@ -71,7 +71,7 @@ const page = () => {
         {/* DifferenceTwo */}
        
 
-        {/* BlogOne */}
+        {/* BlogOne 
         <BlogOne />
 
         {/* FooterOne */}
