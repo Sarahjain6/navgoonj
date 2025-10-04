@@ -47,7 +47,7 @@ const DifferenceOne = () => {
               >
                 <span className='sub-title'>
                   <i className='icon-donation' />
-                  Start donating poor people
+                 
                 </span>
                 <h2 className='title-animation_inner'>
                   Help us change lives
