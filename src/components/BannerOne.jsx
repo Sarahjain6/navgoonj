@@ -36,7 +36,7 @@ const BannerOne = () => {
                       <div className='banner-two__slider-content'>
                         <span className='sub-title'>
                           <i className='icon-donation' />
-                          Start donating poor people
+                          
                         </span>
                         <h1>
                           Giving help <br />
@@ -132,7 +132,7 @@ const BannerOne = () => {
                       <div className='banner-two__slider-content'>
                         <span className='sub-title'>
                           <i className='icon-donation' />
-                          Start donating poor people
+                         
                         </span>
                         <h1>
                           Giving help <br />

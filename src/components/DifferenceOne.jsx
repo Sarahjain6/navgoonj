@@ -50,7 +50,7 @@ const DifferenceOne = () => {
                   Start donating poor people
                 </span>
                 <h2 className='title-animation_inner'>
-                  Charity With Difference
+                  Help us change lives
                 </h2>
                 <p>
                   Join our monthly giving program to provide consistent support
