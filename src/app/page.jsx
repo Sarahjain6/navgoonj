@@ -51,7 +51,8 @@ const page = () => {
         <HelpOne />
 
         {/* CauseOne */}
-        <CauseOne />
+        <br></br>
+        <br></br>
 
         {/* CtaSectionOne */}
         <CtaSectionOne />
@@ -66,7 +67,7 @@ const page = () => {
         <TestimonialOne />
 
         {/* CauseSliderTwo */}
-        <CauseSliderTwo />
+        {/* <CauseSliderTwo /> */}
 
         {/* DifferenceTwo */}
        

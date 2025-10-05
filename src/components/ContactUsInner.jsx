@@ -31,12 +31,12 @@ const ContactUsInner = () => {
                         target='_blank'
                         rel='noreferrer'
                       >
-                        55 Main street, 2nd block, Melbourne, Australia
+                        H.NO-882, WARD NO-6, FLAT NO.C-4 MEHRAULI NEW DELHI 110030
                       </a>
                     </p>
                   </div>
                 </div>
-                <div className='contact-main__single'>
+                {/* <div className='contact-main__single'>
                   <div className='thumb'>
                     <i className='fa-solid fa-phone' />
                   </div>
@@ -49,7 +49,7 @@ const ContactUsInner = () => {
                       <a href='tel:2305-587-3407'>+236 (456) 896 22</a>
                     </p>
                   </div>
-                </div>
+                </div> */}
                 <div className='contact-main__single'>
                   <div className='thumb'>
                     <i className='fa-solid fa-envelope' />
@@ -60,9 +60,9 @@ const ContactUsInner = () => {
                       <a href='mailto:info@navgoonj.in'>info@navgoonj.in</a>
                     </p>
                     <p>
-                      <a href='mailto:support@example.com'>
+                      {/* <a href='mailto:support@example.com'>
                         charifund@email.com
-                      </a>
+                      </a> */}
                     </p>
                   </div>
                 </div>
@@ -82,24 +82,8 @@ const ContactUsInner = () => {
                       >
                         <i className='fa-brands fa-facebook-f' />
                       </a>
-                      <a
-                        href='https://vimeo.com/'
-                        target='_blank'
-                        aria-label='share us on vimeo'
-                        title='vimeo'
-                        rel='noreferrer'
-                      >
-                        <i className='fa-brands fa-vimeo-v' />
-                      </a>
-                      <a
-                        href='https://x.com/'
-                        target='_blank'
-                        aria-label='share us on twitter'
-                        title='twitter'
-                        rel='noreferrer'
-                      >
-                        <i className='fa-brands fa-twitter' />
-                      </a>
+                      
+                      
                       <a
                         href='https://www.linkedin.com/'
                         target='_blank'
