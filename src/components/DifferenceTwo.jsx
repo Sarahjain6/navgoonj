@@ -29,12 +29,7 @@ const DifferenceTwo = () => {
                       />
                     </div>
                     <div className='video-btn-wrapper'>
-                      <button
-                        onClick={() => setIsOpen(true)}
-                        className='open-video-popup'
-                      >
-                        <i className='icon-play' />
-                      </button>
+                      
                     </div>
                   </div>
                   <div
@@ -56,22 +51,19 @@ const DifferenceTwo = () => {
                 <div className='difference-two__content'>
                   <span className='sub-title'>
                     <i className='icon-donation' />
-                    Start donating poor people
+                    
                   </span>
                   <h2 className='title-animation_inner'>
-                    Donate <span>Support</span> to Make Difference way
+                    About <span>Us</span>
                   </h2>
-                  <p>
-                    Charity is the voluntary act of giving help, typically in
-                    the form of money, time, or resources, to those in need.
-                    Charitable organizations aim to solve social, environmental,
-                    and economic challenges by addressing issues like poverty,
+                  <p style={{ fontSize: '21px', lineHeight: '1.6' }}>
+                    At NavGoonj , we believe that a strong community is built on compassion and support for all its members. We are a non-profit organization dedicated to creating a better world by addressing some of the most pressing needs of our society. Our mission is to uplift the lives of those often overlooked—our elders, vulnerable children, and our planet.
                   </p>
 
                   <div className='difference-two__inner cta'>
                     <div className='difference-two__inner-content'>
                       {/* TABS */}
-                      <div className='difference-two__tab'>
+                      {/* <div className='difference-two__tab'>
                         <div className='difference-two__tab-btns'>
                           <button
                             className={`difference-two__tab-btn ${
@@ -171,10 +163,10 @@ const DifferenceTwo = () => {
                             </div>
                           )}
                         </div>
-                      </div>
+                      </div> */}
 
                       {/* PROGRESS */}
-                      <div className='difference-two__progress'>
+                      {/* <div className='difference-two__progress'>
                         <div className='difference-progress-single'>
                           <div
                             className='progress-bar-single'
@@ -243,11 +235,11 @@ const DifferenceTwo = () => {
                             </p>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
 
                     {/* CARD */}
-                    <div className='difference-two__card'>
+                    {/* <div className='difference-two__card'>
                       <div className='card-group'>
                         <div className='thumb'>
                           <i className='icon-donation-card' />
@@ -267,7 +259,7 @@ const DifferenceTwo = () => {
                           <p>$1,456</p>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

@@ -15,8 +15,8 @@ import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 
 export const metadata = {
-  title: "Charifund | Nonprofit & Fundraising Charity NEXT JS Template",
-  description: "Nonprofit & Fundraising Charity NEXT JS Template.",
+  title: "Navgoonj | NGO",
+  description: "Nonprofit & Fundraising Navgoonj",
 };
 
 const page = () => {
@@ -39,14 +39,14 @@ const page = () => {
         <BreadcrumbOne title='About Us' />
 
         {/* HelpOne */}
-        <HelpOne />
+        {/* <HelpOne /> */}
         
         {/* CtaSectionTwo */}
-        <CtaSectionTwo />
+        {/* <CtaSectionTwo /> */}
 {/* DifferenceTwo */}
         <DifferenceTwo />
         {/* TeamTwo */}
-        <TeamTwo />
+        {/* <TeamTwo /> */}
 
         {/* FaqOne */}
        
@@ -54,7 +54,7 @@ const page = () => {
         
 
         {/* ContactOne */}
-        <ContactOne />
+        {/* <ContactOne /> */}
 
         
 
