@@ -42,11 +42,15 @@ const HeaderOne = () => {
               <div className="main-header__menu-box">
                 <nav className="navbar p-0">
                   {/* Logo */}
-                  <div className="navbar-logo">
-                    <Link href="/">
-                      <img src="/assets/images/logo.png" alt="Navgoonj Logo" />
-                    </Link>
-                  </div>
+                 <div className="navbar-logo">
+  <Link href="/">
+    <img
+      src="/assets/images/logo.png"
+      alt="Navgoonj Logo"
+      style={{ maxWidth: "250px", height: "55px"}} // change px as needed
+    />
+  </Link>
+</div>
 
                   {/* Desktop Menu */}
                   <div className="navbar__menu-wrapper">
